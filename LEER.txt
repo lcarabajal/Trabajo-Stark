@@ -1,2 +1,2 @@
-En el codigo de Desafio Stark hice tanto el Desafio stark00 y Desafio stark01 junto, estoy trabajando para agregarle el stark03 también.
+En el codigo de Desafio Stark hice tanto el Desafio stark00 y Desafio stark01 junto, estoy trabajando para agregarle el stark02 también.
 Una aclaracion: tengo pensado seguir trabajando en este mismo repositorio y ir actualizandolo hasta terminar con todos los Desafios.
