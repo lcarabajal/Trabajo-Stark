@@ -45,50 +45,8 @@
 #Legajo: 114419
 #DNI: 46583637
 #LUCAS CARABAJAL DAMIAN SILVA ©
-import os 
+
 from data_stark import lista_personajes
 from funciones_stark import *
 
-while True:
-    os.system("cls")
-   
-    match(menuOpciones()):
-        
-        case "1":
-            mostrarNombres(lista_personajes)
-                
-        case "2":
-            mostrarNomyAlt(lista_personajes)
-                
-        case "3":
-            heroeMasAlto(lista_personajes)
-        
-        case "4":
-            heroeMenosAlto(lista_personajes)
-        
-        case "5":
-            promedioHeroes(lista_personajes)
-        
-        case "6":
-            nombreAltoyBajo(lista_personajes)
-            
-        case "7":
-            nombrePesyLig(lista_personajes)
-        
-        case "8":
-            ir = input("seguro que desea ir al siguiente menu ? s/n: ")
-            if ir == "s":
-                menu_stark01()        
-        case "9":
-            salir = input("Seguro que desea salir? s/n: ")
-            if salir == "s":
-                break
-           
-    os.system("pause")
-
-
-
-
-
-
-
+stark_marvel_app(lista_personajes)
